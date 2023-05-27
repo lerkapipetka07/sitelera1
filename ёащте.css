@@ -1,0 +1,42 @@
+body{
+	background-color: lightsalmon;
+}
+p{
+	font-size: 50px;
+	color: limegreen;
+	background-color: lightyellow;
+}
+.serif {
+  font-family: Times, "Times New Roman", Georgia, serif;
+}
+.first{
+	font-family:  Times, "Times New Roman", Georgia, serif;;
+}
+.second{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: magenta;
+}
+.third{
+font-family: 'Amatic SC', cursive;
+}
+.fourth{
+font-family: 'Pacifico', cursive;
+
+}
+.fifth{
+font-family: 'Yanone Kaffeesatz', sans-serif;	
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Pacifico&family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+.shadow1{
+	text-shadow: 0 0 10px green;
+}
+.shadow2{
+	text-shadow: 2px  -2px green;
+}
+.shadow3 {
+  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+  color: white;
+  font: 2.5em Georgia, serif;
+}
